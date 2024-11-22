@@ -177,6 +177,80 @@
 						</div>
 					</div>
 				</div>
+				<div
+					class="tab-pane fade"
+					[ngClass]="{ 'active show': activeTab === 'career' }"
+					id="career"
+					aria-labelledby="skill-tab"
+				>
+					<h1 class="text-center mt-5 mb-3">Career as a Freelancer</h1>
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="education-section">
+								<i
+									class="fas fa-graduation-cap mt-5 font-size-50"
+								></i>
+								<div class="timeline mt-5">
+									<div
+										*ngFor="
+											let ed of aboutData['career']
+										"
+										class="wow timeline-box bounceIn{{
+											ed['animationClass']
+										}}"
+										data-wow-delay="0s"
+									>
+										<div class="timeline-container">
+											<h3
+												class="experience-designation m-0 text-{{
+													ed['textAlignment']
+												}}"
+											>
+												{{ ed["role"] }}
+											</h3>
+											<h4
+												class="experience-company-name text-{{
+													ed['textAlignment']
+												}}"
+											>
+												{{ ed["where"] }}
+											</h4>
+											<h5
+												class="experience-duration m-0 text-{{
+													ed['textAlignment']
+												}}"
+											>
+												{{ ed["duration"] }}
+											</h5>
+											<h6
+												class="experience-description font-weight-normal text-{{
+													ed['textAlignment']
+												}}"
+											>
+												<span>Success rate: {{ ed["jobsuccess"] }}</span>
+												<span class="ml-2">Reviews: {{ ed["reviewCount"] }}</span>
+											</h6>
+											<h6
+												class="experience-description font-weight-normal text-{{
+													ed['textAlignment']
+												}}"
+											>
+												Completed Tasks: <span style="color: brown;">{{ ed["completedTask"] }}</span>
+											</h6>
+										</div>
+									</div>
+									<div id="timeline-divider">
+										<div class="timeline-traveller">
+											<i
+												class="fas fa-plane font-size-25"
+											></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
