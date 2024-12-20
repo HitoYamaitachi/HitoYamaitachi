@@ -1,5 +1,5 @@
 <h1 align="center"> 
-	<a href="https://JayantGoel001.github.io/">JayantGoel001.github.io</a> - v2.0
+	<a href="https://JayantGoel001.github.io/">Hito Yamaitachi's Portfolio</a> - v2.0
 	<p align="center">
 		<img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E44D26?style=flat&logo=html5&logoColor=white"/>
 		<img alt="CSS3" src="https://img.shields.io/badge/-CSS3-2965f1?style=flat&logo=css3&logoColor=white"/>
@@ -16,10 +16,10 @@
 <br/>
 
 <div align="center">
-	<a href="https://github.com/JayantGoel001/JayantGoel001.github.io">
+	<a href="https://github.com/hitoyamaitachi">
 		<img src="src/screenshots/icon.png" alt="Logo" width="80" height="80"/>
 	</a>
-	<h3 align="center">Hito Yamaitachi (JayantGoel001)'s Personal Portfolio</h3>
+	<h3 align="center">Hito Yamaitachi's Personal Portfolio</h3>
 	<p align="center">
 		This is the source code for my Personal Portfolio.
 		<br/>
@@ -28,9 +28,9 @@
 		<br/>
 		<a href="https://jayantgoel001.github.io/">View Demo</a>
 		·
-		<a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues/new?assignees=JayantGoel001&labels=bug&template=bug_report.yml&title=%5BBUG%5D%3A+">Report Bug</a>
+		<a href="https://github.com/hitoyamaitachi/issues/new?assignees=hitoyamaitachi&labels=bug&template=bug_report.yml&title=%5BBUG%5D%3A+">Report Bug</a>
 		·
-		<a href="https://github.com/JayantGoel001/JayantGoel001.github.io/issues/new?assignees=&labels=enhancement&template=feature_request.yml&title=%5BFEAT%5D%3A+">Request Feature</a>
+		<a href="https://github.com/hitoyamaitachi/issues/new?assignees=&labels=enhancement&template=feature_request.yml&title=%5BFEAT%5D%3A+">Request Feature</a>
 	</p>
 	<p>
 		<img src="https://img.shields.io/github/contributors/JayantGoel001/JayantGoel001.github.io.svg?styles/default/yes.svg" alt="Contributors"/> • 
@@ -48,7 +48,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://JayantGoel001.github.io/">
+  <a href="https://hitoyamaitachi.vercel.app/">
     <img src="src/screenshots/screenshot.gif" alt="landing page"/>
   </a>
 </p>
@@ -113,7 +113,7 @@
 
 ### Icon
 
-This is the Favicon of me in [JayantGoel001.github.io](https://JayantGoel001.github.io)
+This is the Favicon of me in [JayantGoel001.github.io](http://hitoyamaitachi.vercel.app)
 
 <img alt="Me Icon" src="src/screenshots/icon.png" width="192"/>
 
@@ -169,17 +169,17 @@ These are the Font Awesome Icons used in [JayantGoel001.github.io](https://Jayan
 - Clone the repository :
     - With HTTPS:
       ```bash
-      git clone https://github.com/JayantGoel001/JayantGoel001.github.io.git
+      git clone https://github.com/HitoYamaitachi/HitoYamaitachi/.git
       ```
     - With SSH:
       ```bash
-      git@github.com:JayantGoel001/JayantGoel001.github.io.git
+      git@github.com/HitoYamaitachi/HitoYamaitachi.git
       ```
       
 - Navigate to working Directory and **main** branch
 
 	```bash
-	cd JayantGoel001.github.io
+	cd HitoYamaitachi
 	git switch main
 	```
 
